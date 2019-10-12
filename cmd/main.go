@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	nettool "git.iotserv.com/iotserv/utils/net"
+	"github.com/mDNSService/utils/nettool"
 	"golang.org/x/net/webdav"
 	"net/http"
 )
