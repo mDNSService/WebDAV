@@ -11,6 +11,8 @@ func main() {
 	var txtInfo = nettool.MDNSServiceBaseInfo
 	txtInfo["name"] = "WebDAV文件服务器"
 	txtInfo["model"] = "com.iotserv.devices.webdav"
+	txtInfo["ui-support"] = "native,none"
+	txtInfo["ui-first"] = "native"
 	port, err := nettool.GetOneFreeTcpPort()
 	if err != nil {
 		fmt.Println(err.Error())
@@ -21,6 +23,7 @@ func main() {
 		fmt.Println(err.Error())
 		return
 	}
+	fmt.Printf("正在开启%s服务,端口：%d", txtInfo["name"], port)
 	err = http.ListenAndServe(fmt.Sprintf(":%d", port), &webdav.Handler{
 		FileSystem: webdav.Dir("."),
 		LockSystem: webdav.NewMemLS(),
