@@ -18,8 +18,10 @@ github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORN
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
-github.com/mDNSService/utils v0.0.0-20191012092825-eecaf5b22bd0 h1:e4LrNE+h3zupHzDZOZmljOyLYudLkhPaOlRVU+HdVGw=
-github.com/mDNSService/utils v0.0.0-20191012092825-eecaf5b22bd0/go.mod h1:V9M2a2eSbO6qHvUTNC24F2vMbHXPRgxGBndfN4IjlEU=
+github.com/mDNSService/utils v0.0.0-20191028071918-0d944699af92 h1:tAaDjz/Pa0EzYKrLT7idXFzL+tPSnNM1nct2XNhuvHU=
+github.com/mDNSService/utils v0.0.0-20191028071918-0d944699af92/go.mod h1:V9M2a2eSbO6qHvUTNC24F2vMbHXPRgxGBndfN4IjlEU=
+github.com/mDNSService/utils v0.1.0 h1:uv5ThMppVj7qZYpuXR4n0tkShBwxeVxXN4v9MO0xAOM=
+github.com/mDNSService/utils v0.1.0/go.mod h1:V9M2a2eSbO6qHvUTNC24F2vMbHXPRgxGBndfN4IjlEU=
 github.com/miekg/dns v1.1.22 h1:Jm64b3bO9kP43ddLjL2EY3Io6bmy1qGb9Xxz6TqS6rc=
 github.com/miekg/dns v1.1.22/go.mod h1:bPDLeHnStXmXAq1m/Ch/hvfNHr14JKNPMBo3VZKjuso=
 github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=

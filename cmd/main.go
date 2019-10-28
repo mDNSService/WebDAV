@@ -10,9 +10,7 @@ import (
 func main() {
 	var txtInfo = nettool.MDNSServiceBaseInfo
 	txtInfo["name"] = "WebDAV文件服务器"
-	txtInfo["model"] = "com.iotserv.devices.webdav"
-	txtInfo["ui-support"] = "native,none"
-	txtInfo["ui-first"] = "native"
+	txtInfo["model"] = "com.iotserv.services.webdav"
 	port, err := nettool.GetOneFreeTcpPort()
 	if err != nil {
 		fmt.Println(err.Error())
